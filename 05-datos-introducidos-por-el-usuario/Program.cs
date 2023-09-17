@@ -14,8 +14,12 @@ class Variables
         System.Console.Write("Dime el segundo valor: ");
         b = Convert.ToInt32(Console.ReadLine());
 
-        int c = a + b;
+        int suma = a + b;
+        int division = a / b;
+        int resto = a % b;
 
-        System.Console.WriteLine("Resultado: " + c);
+        System.Console.WriteLine("Resultado de su suma: " + suma);
+        System.Console.WriteLine("Resultado de su división: " + division);
+        System.Console.WriteLine("Resultado de su resto: " + resto);
     }
 }

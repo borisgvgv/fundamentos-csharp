@@ -5,13 +5,13 @@ class Variables
     static void Main()
     {
 
-        int a = 4;
-        int b = 6;
+        int a;
+        int b;
 
-        System.Console.WriteLine("Dime el primer valor");
+        System.Console.Write("Dime el primer valor: ");
         a = Convert.ToInt32(Console.ReadLine());
 
-        System.Console.WriteLine("Dime el segundo valor");
+        System.Console.Write("Dime el segundo valor: ");
         b = Convert.ToInt32(Console.ReadLine());
 
         int c = a + b;
